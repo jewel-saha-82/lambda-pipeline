@@ -10,3 +10,9 @@ Change set name               LambdaPipeline-changeset
 BuildArtifact                 outputtemplate.yaml
 capabilities                  CAPABILITY_IAM
 role                          mydemo-LambdaPipeline
+
+
+Action name                   execute-changeset
+Action provider               AWS Cloudformation
+InputArtifact                 BuiltArtifact
+Action mode                   execute a changeset
