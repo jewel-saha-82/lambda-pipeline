@@ -1,0 +1,12 @@
+https://docs.aws.amazon.com/de_de/lambda/latest/dg/build-pipeline.html
+
+https://github.com/wolfgangunger/cloud-guru-devops/tree/master/codepipeline/lambda-pipeline
+
+
+
+
+Stack name                    LambdaPipeline-stack
+Change set name               LambdaPipeline-changeset
+BuildArtifact                 outputtemplate.yaml
+capabilities                  CAPABILITY_IAM
+role                          mydemo-LambdaPipeline
